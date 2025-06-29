@@ -34,6 +34,7 @@ extern const struct menu_item_ex
         peak_meter_menu,            /* also used from within recording_menu */
 #endif
         sound_settings,             /* sound_menu.c     */
+	bluetooth_submenu,
         settings_menu_item,         /* settings_menu.c  */
         bookmark_settings_menu,
         playlist_settings,          /* playlist_menu.c  */
