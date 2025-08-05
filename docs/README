@@ -21,7 +21,7 @@ Pair Rockbox with [a microcontroller running this firmware](https://github.com/l
 - [x] iPod mini 1st/2nd (via 30-pin serial)
 - [x] iPod nano 1st/2nd
 
-![](images/video_bt.png)![](images/nano_bt.png)![](images/3g_bt.png)
+![](docs/images/video_bt.png)![](docs/images/nano_bt.png)![](docs/images/3g_bt.png)
 
 *iPod 3g **does** expose a serial port through the headphone accessory port with RX/TX. However **current Rockbox build does not support this**. TBD on when this will be available.
 
