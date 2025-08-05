@@ -1,9 +1,30 @@
-               __________               __   ___.
+# Rockbox with Bluetooth support.
+
+               __________               __   ___.     *
      Open      \______   \ ____   ____ |  | _\_ |__   _______  ___
      Source     |       _//  _ \_/ ___\|  |/ /| __ \ /  _ \  \/  /
      Jukebox    |    |   (  <_> )  \___|    < | \_\ (  <_> > <  <
      Firmware   |____|_  /\____/ \___  >__|_ \|___  /\____/__/\_ \
                        \/            \/     \/    \/            \/
+	 *with Bluetooth
+
+
+Pair Rockbox with [a microcontroller running this firmware](https://github.com/loafbrad/ipod_bluetooth_arduino) to control your Bluetooth module through software!
+
+## Supported iPods
+
+- [ ] ~~iPod 1g/2g~~ (not currently attempting/supporting)
+- [ ] ~~iPod 3g~~ (See comment below*)
+- [x] iPod 4g "Photo/Color" (via 30-pin serial)
+- [x] iPod 5g "Video"
+- [x] iPod 6g/7g "Classic"
+- [x] iPod mini 1st/2nd (via 30-pin serial)
+- [x] iPod nano 1st/2nd
+
+![](images/video_bt.png)![](images/nano_bt.png)![](images/3g_bt.png)
+
+*iPod 3g **does** expose a serial port through the headphone accessory port with RX/TX. However **current Rockbox build does not support this**. TBD on when this will be available.
+
 
 Build Your Own Rockbox
 
