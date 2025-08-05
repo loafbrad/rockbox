@@ -11,6 +11,8 @@
 
 Pair Rockbox with [a microcontroller running this firmware](https://github.com/loafbrad/ipod_bluetooth_arduino) to control your Bluetooth module through software!
 
+[Download your Rockbox image with Bluetooth support here](https://github.com/loafbrad/rockbox/releases/tag/Release) and drop into your iPod's `.rockbox` dir in root directory
+
 ## Supported iPods
 
 - [ ] ~~iPod 1g/2g~~ (not currently attempting/supporting)
